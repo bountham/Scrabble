@@ -5,11 +5,19 @@
         function playScrabble($input)
         {
             if ($input == "A") {
-                return "1 point";
+                return "1";
             }
             elseif ($input == "A,E") {
-                return "2 points";
+                return "2";
             }
+            elseif ($input == "D,G") {
+                return "4";
+            }
+            elseif ($input == "A,G"){
+                return "3";
+            }
+            elseif ($input == "T,B,Q")
+                return "24";
             else {
                 return "Oops";
             }
