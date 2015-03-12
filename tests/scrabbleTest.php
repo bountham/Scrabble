@@ -3,6 +3,7 @@
 
     class scrabbleTest extends PHPUnit_Framework_TestCase
     {
+
         function test_playScrabble_A()
         {
         //Arrange
@@ -20,14 +21,27 @@
         {
         //Arrange
         $test_playScrabble_AE = new scrabbleGame;
-        $input= "A E";
+        $input= "A,E";
 
         //Act
         $result = $test_playScrabble_AE->playScrabble($input);
 
         //Assert
-        $this->assertEquals("2 point",$result);
+        $this->assertEquals("2 points",$result);
     }
+
+        function test_playScrabble_DG()
+        {
+        //Arrange
+        $test_playScrabble_DG = new scrabbleGame;
+        $input= "D,G";
+
+        //Act
+        $result = $test_playScrabble_DG->playScrabble($input);
+
+        //Assert
+        $this->assertEquals("4 points",$result);
+        }
 
     }
 

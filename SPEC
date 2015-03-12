@@ -1,36 +1,17 @@
 
 Spec 1
 
-1. input A output:1
+1. input A output: 1
 spec: Use single letter with lowest point.
 
 2. input: A, E output: 2
  spec: Add another letter to "A" to get 2 points.
 
-3. input: T, O  output: 2
- spec: user input T O and 2 points.
+3. input:D, G output: 4
+spec: Use two letters with higher value points.
 
-4. input: A, E, I  output: 3
- spec: user inputs A, E, I and user gets 3 points.
+4. input A, G output: 3
+spec: Use two different value letters
 
-5. input: U, L output: 2
- spec: user inputs U, L and user gets 2 points.
-
-6. input: N, R, S output: 3 points
- spec: user inputs N, R, S and user gets 3 points.
-
-7 input:
-
-
-
-
-
-
-
-
-
-
-
-
- //input:input: NORTH output: 4
- spec: if user inputs word get 4 points;
+5. input: T B Q output: 24
+spec. user input different value letter and get more points.
